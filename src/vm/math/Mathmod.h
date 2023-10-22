@@ -10,6 +10,7 @@
 #include <cmath>
 #include <disvm.h>
 #include <builtin_module.h>
+#include <algorithm>
 
 using disvm::vm_t;
 

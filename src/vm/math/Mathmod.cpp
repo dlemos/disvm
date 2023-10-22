@@ -10,6 +10,8 @@
 #else
 // Pragma for floating point support - http://en.cppreference.com/w/cpp/numeric/fenv
 #pragma STDC FENV_ACCESS ON
+#define FE_ROUND_MASK  (FE_TONEAREST | FE_DOWNWARD | \
+                        FE_UPWARD | FE_TOWARDZERO)
 #endif
 
 #include <cfenv>

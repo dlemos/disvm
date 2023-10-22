@@ -8,6 +8,7 @@
 #include <vm_memory.h>
 #include <debug.h>
 #include <exceptions.h>
+#include <algorithm>
 
 using disvm::debug::component_trace_t;
 using disvm::debug::log_level_t;

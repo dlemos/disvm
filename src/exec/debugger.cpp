@@ -17,6 +17,7 @@
 #include <vm_asm.h>
 #include <exceptions.h>
 #include "exec.h"
+#include <iterator>
 
 using disvm::vm_t;
 using disvm::loaded_vm_module_t;

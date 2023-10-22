@@ -10,6 +10,8 @@
 #include <array>
 #include <cstdarg>
 #include <cassert>
+#include <cstring>
+#include <iterator>
 
 namespace disvm
 {

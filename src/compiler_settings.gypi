@@ -47,6 +47,7 @@
     ['OS=="linux"', {
       'cflags': ['-std=c++1y'],
       'cflags_cc': ['-fexceptions'],
+      'ldflags': ['-lpthread'],
     }]
   ]
 }

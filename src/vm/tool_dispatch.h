@@ -14,6 +14,7 @@
 #include <runtime.h>
 #include <tuple>
 #include <vm_tools.h>
+#include <condition_variable>
 
 namespace disvm
 {
